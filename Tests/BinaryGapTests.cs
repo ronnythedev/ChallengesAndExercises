@@ -3,27 +3,21 @@ using NUnit.Framework;
 
 namespace Tests
 {
+    [TestFixture]
     public class BinaryGapTests
     {
-        [SetUp]
-        public void Setup()
-        {
-        }
-
         [Test]
-        public void Test1()
+        [TestCase(9, 2)]
+        [TestCase(529, 4)]
+        [TestCase(20, 1)]
+        [TestCase(15, 0)]
+        [TestCase(32, 0)]
+        [TestCase(1041, 5)]
+        public void BinaryGap_WhenCalled_ReturnTheGreaterBinaryGap(int a, int expectedResult)
         {
-            Assert.AreEqual(BinaryGapProblem.BinaryGap(9), 2);
+            var result = BinaryGapProblem.BinaryGap(a);
 
-            Assert.AreEqual(BinaryGapProblem.BinaryGap(529), 4);
-
-            Assert.AreEqual(BinaryGapProblem.BinaryGap(20), 1);
-
-            Assert.AreEqual(BinaryGapProblem.BinaryGap(15), 0);
-
-            Assert.AreEqual(BinaryGapProblem.BinaryGap(32), 0);
-
-            Assert.AreEqual(BinaryGapProblem.BinaryGap(1041), 5);
+            Assert.That(result, Is.EqualTo(expectedResult));
         }
     }
 }

@@ -4,9 +4,9 @@ namespace Challenges
 {
     public class BinaryGapProblem
     {
-        public static int BinaryGap(int N)
+        public static int BinaryGap(int n)
         {
-            string nInBinary = Convert.ToString(N, 2);
+            string nInBinary = Convert.ToString(n, 2);
 
             int longestGap = 0;
             int currentGapLength = 0;

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Challenges
+﻿namespace Challenges
 {
     public class CyclingRotation
     {
-        static int[] Rotate(int[] originalArray, int numberOfRotation)
+        public static int[] Rotate(int[] originalArray, int numberOfRotation)
         {
             int counter = 1;
             int[] resultingArray = (int[])originalArray.Clone();
