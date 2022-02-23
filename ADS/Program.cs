@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Challenges
+namespace ADS
 {
     class Program
     {

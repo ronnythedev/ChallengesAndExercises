@@ -1,17 +1,17 @@
 ﻿using System;
 
-namespace Challenges
+namespace ADS.Arrays
 {
-    public class BinaryGapProblem
+    public static class BinaryGapProblem
     {
         public static int BinaryGap(int n)
         {
-            string nInBinary = Convert.ToString(n, 2);
+            var nInBinary = Convert.ToString(n, 2);
 
-            int longestGap = 0;
-            int currentGapLength = 0;
+            var longestGap = 0;
+            var currentGapLength = 0;
 
-            for (int i = 1; i < nInBinary.Length; i++)
+            for (var i = 1; i < nInBinary.Length; i++)
             {
                 if (nInBinary[i - 1] == '1' && nInBinary[i] == '0')
                 {

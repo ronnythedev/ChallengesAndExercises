@@ -1,7 +1,7 @@
-using Challenges;
+using ADS.Arrays;
 using NUnit.Framework;
 
-namespace Tests
+namespace Tests.Arrays
 {
     [TestFixture]
     public class BinaryGapTests

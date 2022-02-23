@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenges", "Challenges\Challenges.csproj", "{5392A134-F2A5-4B6D-9ECF-5232F1BFE1DE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADS", "ADS\ADS.csproj", "{5392A134-F2A5-4B6D-9ECF-5232F1BFE1DE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{E0C5E58F-98A1-4C3E-9CBC-15F77C652F4D}"
 EndProject
