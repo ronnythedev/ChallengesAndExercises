@@ -1,13 +1,12 @@
-using ADS.Arrays;
 using ADS.SlidingWindow;
 using NUnit.Framework;
 
 namespace Tests.SlidingWindow
 {
-    public static class FruitsIntoBasketsTests
+    public static class FruitsIntoBasketsSetTests
     {
         [TestFixture]
-        public class MaxSubarrayTests
+        public class FruitsIntoBasketsTests
         {
             [Test]
             [TestCase(new[] { 1, 2, 1 }, 3)]
