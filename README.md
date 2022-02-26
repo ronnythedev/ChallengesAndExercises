@@ -1,6 +1,9 @@
-# Exercises in C&#35; just to keep programming skills sharp
+# Algorithms and Data Structure Exercises in C#
 
-### List of Exercises
+### My current approach:
 
-1. BinaryGapProblem.cs: Statement taken from https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
-2. CyclingRotation.cs: Statement taken from https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/
+1. Follow Grokking's patterns and exercises.
+2. Make them in LeetCode.
+3. Make them again in C# with Unit Tests.
+4. Once I feel comfortable with the pattern, make as much exercises as I can in LeetCode filtering by pattern.
+5. Do them again in this project.
